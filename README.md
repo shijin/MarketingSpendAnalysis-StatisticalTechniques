@@ -37,11 +37,15 @@ By applying statistical techniques such as **log transformation**, **empirical r
 - Executive Summary
 - Cleaned Datasets
 
-### Running the Notebook
+## 📂 Data Source
+
+You can download the cleaned dataset from [Google Drive](https://drive.google.com/drive/folders/1jZkYwku03x1G7ZJc_qyE4zvsLFKxpQEV?usp=drive_link)
+
+## Running the Notebook
 
 - This project was built using Jupyter Notebook and is compatible with Google Colab.
 
-### To Run on Google Colab:
+## To Run on Google Colab:
 1. Open this notebook in Colab:  
    [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/shijin/MarketingSpendAnalysis-StatisticalTechniques/blob/main/MarketingPerformance_StatisticalAnalysis.ipynb)
 
