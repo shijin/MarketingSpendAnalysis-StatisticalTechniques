@@ -1,6 +1,6 @@
-Marketing Spend Effectiveness Analysis Using Statistical Technqiues
+# Marketing Spend Effectiveness Analysis Using Statistical Technqiues
 
-Overview
+## Overview
 
 This project analyzes marketing campaign performance using two key metrics:
 
@@ -11,7 +11,7 @@ By applying statistical techniques such as **log transformation**, **empirical r
 
 ---
 
-Objective
+## Objective
 
 - Explore the distribution of CTR and CPA.
 - Apply log transformation to reduce skewness.
@@ -21,7 +21,7 @@ Objective
 
 ---
 
-Tools & Technologies
+## Tools & Technologies
 
 - **Language**: Python  
 - **Libraries**: pandas, numpy, scipy, seaborn, matplotlib  
@@ -29,5 +29,32 @@ Tools & Technologies
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Deliverables
+
+- Jupyter notebook
+- Scope of Work
+- PACE strategy document
+- Executive Summary
+- Cleaned Datasets
+
+### Running the Notebook
+
+- This project was built using Jupyter Notebook and is compatible with Google Colab.
+
+### To Run on Google Colab:
+1. Open this notebook in Colab:  
+   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/shijin/MarketingSpendAnalysis-StatisticalTechniques/blob/main/MarketingPerformance_StatisticalAnalysis.ipynb)
+
+2. Upload the dataset manually:  
+   - Click the file icon (left sidebar in Colab)
+   - Click **Upload**, then select `marketing_campaign.csv`  
+   *(or run the cell `from google.colab import files` to upload interactively)*
+
+3. Alternatively, replace the `read_csv()` line with a GitHub raw link:
+```python
+df = pd.read_csv('https://github.com/shijin/BlackFridaySalesDataAnalysis-Python_R/blob/main/marketing_campaign.csv')
+```
+## Author
+
+* Shijin Ramesh | Data Analyst 
 
