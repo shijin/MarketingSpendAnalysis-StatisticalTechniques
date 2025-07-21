@@ -1,4 +1,4 @@
-# Marketing Spend Effectiveness Analysis Using Statistical Technqiues
+# Marketing Spend Effectiveness Analysis (Statistical & Regression Analysis)
 
 ## Overview
 
@@ -27,7 +27,27 @@ By applying statistical techniques such as **log transformation**, **empirical r
 - **Libraries**: pandas, numpy, scipy, seaborn, matplotlib  
 - **Environment**: Jupyter Notebook / Google Colab
 
----
+## Final Model Summary
+
+**Regression Model**: Log_CPA ~ Cost_Per_Click + Conversion_Rate + Log_Clicks
+
+### 📊 R² Score:
+**0.869** – Indicates 86.9% of variance in Log CPA is explained by the model.
+
+### ✅ Coefficients:
+- Intercept: 8.64  
+- Cost_Per_Click: +0.0177  
+- Conversion_Rate: −15.7372  
+- Log_Clicks: −0.33  
+
+### 🔍 Assumption Testing:
+| Assumption          | Status      | Notes |
+|---------------------|-------------|-------|
+| Linearity           | ❌ Violated | Residuals showed patterns |
+| Normality           | ✅ Met       | Q-Q and histogram confirmed |
+| Multicollinearity   | ✅ Met       | All VIF < 5.3 |
+| Homoscedasticity    | ❌ Violated | Unequal spread in residuals |
+| Independence        | ✅ Met       | DW ≈ 2 |
 
 ## 📂 Project Deliverables
 
